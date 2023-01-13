@@ -37,8 +37,8 @@
   /* Style the content */
   .content {
     margin-left: 150px;
-    padding-left: 20px;
-    padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
   }
   table, th, td {
     border: 2px solid black;
