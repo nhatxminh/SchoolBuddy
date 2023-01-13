@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    list-style-type: none;
+}
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    height: 43px;
+}
+.nav {
+    display: inline-block;
+}
+.nav li {
+    display: inline-block;
+    color: white;
+    padding: 12px 24px;
+}
+.nav>li>a {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.fa-sharp {
+    display: inline-flex;
+}
+.nav li:hover {
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.nav li:hover a {
+    color: black;
+}
+.nav .drop-down {
+    position: relative;
+}
+.nav .drop-down:hover .subnav {
+    display: block;
+}
+.drop-down .subnav li {
+    width: 100%;
+}
+.drop-down .subnav li a{
+    text-decoration: none;
+}
+.subnav {
+    background-color: white;
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.search-button {
+    float: right;
+    color: white;
+    line-height: 43px;
+    width: 43px;
+    text-align: center;
+}
+.search-button:hover {
+    background-color: red;
+}
+.team-photo {
+    height: 795px;
+    display: flex;
+    background-color: #333;
+    align-items: flex-end;
+}
+.description {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.description>div {
+    padding: 12px 24px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.description .team-number {
+    font-size: 1.5rem;
+}
