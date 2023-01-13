@@ -38,4 +38,15 @@
   .content {
     margin-left: 150px;
     padding-left: 20px;
+    padding-right: 50px;
+  }
+  table, th, td {
+    border: 2px solid black;
+   border-collapse: collapse;
+  }
+  .information {
+    padding: 0px 15px;
+  }
+  thead {
+    background-color: #B76E0B;
   }
