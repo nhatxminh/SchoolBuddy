@@ -5,8 +5,9 @@
     font-size: 16px;
     list-style-type: none;
 }
-html {
+body, html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
 }
 .header {
     background-color: black;
@@ -71,7 +72,10 @@ html {
     background-color: red;
 }
 .team-photo {
-    height: 700px;
+    background-image: url("../assets/img/grouphoto.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     background-color: #333;
     align-items: flex-end;
@@ -81,12 +85,14 @@ html {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-shadow: 2px 0 #333, -2px 0 #333, 0 2px #333, 0 -2px #333,
+    1px 1px #333, -1px -1px #333, 1px -1px #333, -1px 1px #333;
 }
 .description>div {
     padding: 12px 24px;
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
 .description .team-number {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
