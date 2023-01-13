@@ -44,11 +44,13 @@ table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
 }
-.information {
-  padding: 0px 15px;
+td {
+  padding: 15px 15px;
+  text-align: left;
 }
 thead {
   background-color: #B76E0B;
+  text-align: center;
 }
 .name {
   font-weight: bold;
