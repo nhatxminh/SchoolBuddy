@@ -71,3 +71,15 @@ figcaption {
   margin-top: 10px;
   text-align: center;
 }
+.timetable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.figma-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
