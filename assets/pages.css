@@ -61,3 +61,13 @@ thead {
 img {
   width: 100%;
 }
+.testing-diagram {
+  display: block;
+  width: 50% ;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
